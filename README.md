@@ -14,7 +14,7 @@ The package contains classes \(generated with `goetas-webservices/xsd2php`\) for
 composer require zwei14/openimmo:1.0.x-dev
 ```
 
-### Regenerate OpenImmo classes
+### Regenerate OpenImmo classes \(v1.2.7b\)
 
 Regenerate OpenImmo classes after installation.
 
@@ -33,7 +33,7 @@ composer dumpautoload
 Patch fixes `user_defined_simplefield` class and corresponding `*.yml` file for JMS serializer. Otherwise values are missing in XML after reading or writing \(e.g. in import\).
 {% endhint %}
 
-### Regenerate OpenImmo-Feedback classes
+### Regenerate OpenImmo-Feedback classes \(v1.2.5\)
 
 ```text
 # Step 1
